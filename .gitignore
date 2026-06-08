@@ -1,0 +1,41 @@
+# ── Java / Maven ──────────────────────────────────────────────────
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# ── IDE / Editor ──────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+.eclipse/
+.project
+.factorypath
+
+# ── Node / npm (frontend) ─────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Any root-level node_modules (temp scripts, etc.)
+node_modules/
+dist/
+package-lock.json
+
+# ── OS ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Environment / Secrets ─────────────────────────────────────────
+.env
+.env.local
+.env.production
